@@ -30,6 +30,8 @@ export default {
   data() {
     return {
       jsonData: {},
+      // 100200/6e1b1049a9486d49ba015af00d5a0: 测试专用 appId 和 appSecret，正式上线时应改为孕橙分配的正式 appId 和 appSecret
+      // 用户唯一标识符: luopk@ikangtai.com 为测试账号，正式上线时应改为真实的用户唯一标识符
       fam: new YCFam('100200', '6e1b1049a9486d49ba015af00d5a0', 'luopk@ikangtai.com'),
       alInput: {
         debug: 0,
