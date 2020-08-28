@@ -35,6 +35,7 @@ export default {
       fam: new YCFam('100200', '6e1b1049a9486d49ba015af00d5a0', 'luopk@ikangtai.com'),
       alInput: {
         debug: 0,
+        param: { version: 1 },
         userData: {
           userAverageCycleLength: 34,
           userCycleLengthError: 1,
@@ -51,7 +52,7 @@ export default {
             cervicalMunusRecord: 0,
             timestamp: 1461902400,
             dayOfCycle: 0,
-            menstruationRecord: 1
+            menstruationRecord: 10
           },
           {
             impactTempFlag: 0,
@@ -61,7 +62,7 @@ export default {
             cervicalMunusRecord: 0,
             timestamp: 1461988800,
             dayOfCycle: 0,
-            menstruationRecord: 1
+            menstruationRecord: 10
           }
         ]
       }
